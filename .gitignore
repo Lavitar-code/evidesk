@@ -1,0 +1,23 @@
+# Dipendenze e build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Backend Rust (Tauri)
+evidesk-app/src-tauri/target
+
+# Dati locali / backup personali (non vanno pubblicati)
+evidesk-app/src-tauri/evidesk-backup-*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Log
+*.log
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

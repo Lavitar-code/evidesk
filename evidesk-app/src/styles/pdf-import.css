@@ -1,0 +1,56 @@
+.pdf-picker-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.picked-file-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(124, 168, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.picked-file-name {
+  margin: 0;
+  color: var(--text);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.picked-file-path {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.55;
+  word-break: break-all;
+}
+
+.source-inline-file-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.source-inline-file-name {
+  color: var(--text-soft);
+}
+
+.source-inline-file-separator {
+  opacity: 0.5;
+}
+
+.source-inline-file-size {
+  color: var(--accent-2);
+}
+
+.detail-break-value {
+  word-break: break-all;
+}
